@@ -1,0 +1,5 @@
+# ninja log v5
+1	9	0	/Users/shaikshabeer/myapp/android/app/.cxx/Debug/6d14t133/arm64-v8a/CMakeFiles/cmake.verify_globs	2e4b8de273b274ee
+0	1425	1750329652653849662	CMakeFiles/appmodules.dir/Users/shaikshabeer/myapp/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	8c78397fe64fffe5
+1	1582	1750329652810366770	CMakeFiles/appmodules.dir/OnLoad.cpp.o	f37bf8d7ca8648df
+1582	1631	1750329652863972421	/Users/shaikshabeer/myapp/android/app/build/intermediates/cxx/Debug/6d14t133/obj/arm64-v8a/libappmodules.so	cefb3ddaa8e9a54b
