@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -e
+DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+if [ -d "$DIR/gradle/wrapper" ]; then
+  JAVA_HOME=${JAVA_HOME:-$(dirname $(dirname $(readlink -f $(which javac))))}
+  "$DIR/gradle/wrapper/gradle-wrapper" "$@"
+else
+  echo "Gradle wrapper not found"
+  exit 1
+fi
