@@ -1,0 +1,10 @@
+{
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-east-1:example-pool-id",
+        "Region": "us-east-1"
+      }
+    }
+  }
+}
